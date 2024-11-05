@@ -1,0 +1,21 @@
+{
+    "ProjectName": "VulnSmoke",
+    "ProgrammingLanguages": [
+        "CSharp (Windows, Linux)"
+    ],
+    "ScanModules": [
+        "StaticCodeAnalysis"
+    ],
+    "SkipGitIgnoreFiles": true,
+    "DotNetSettings": {
+        "ProjectType": "None",
+        "UsePublicAnalysisMethod": true,
+        "DownloadDependencies": true
+    },
+    "PmTaintSettings": {
+        "UsePublicAnalysisMethod": true
+    },
+    "BlackBoxSettings": {
+        "Site": "http://localhost"
+    }
+}
